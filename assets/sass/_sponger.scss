@@ -267,6 +267,7 @@ s
 	color: $brand-dark;
 	background: #DFDFD0;
 	padding:20px;
+	@include border-radius(15px 0 0 0); 
 
 }
 
@@ -429,6 +430,11 @@ s
 	.brand-modal{ margin: 0 auto}
 }
 
+
+
+.modal-login{
+	.modal-dialog { width: 480px;}
+}
 
 
 
@@ -1111,14 +1117,18 @@ border: none;
 
 
 .page-contact{}
-
-.form-contato {
-font-weight: 100;
+.form-contato { 
+	font-weight: 100;
+padding: 50px;
+display: inline-block;
+width: 100%;
 }
+
+
 
 form{
 	legend{ 
-		margin-top: 20px; 
+		margin-top: 0px; 
 		float: left;
 		color: $brand-medium;
 		font-weight: 500;
@@ -1129,3 +1139,15 @@ form{
 	label{ font-weight: 100}
 }
 
+fieldset{ margin-bottom: 30px;}
+
+.submit-form{padding: 5px 40px;}
+
+
+.mask-form-button{
+	display: inline-block;
+	background: #DFDFD0;
+	width: 100%;
+	padding: 5px 15px;
+	@include border-radius(0 20px 20px 10px);
+ }
