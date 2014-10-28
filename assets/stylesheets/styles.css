@@ -10010,7 +10010,12 @@ s
   float: left;
 }
 
-/* line 1120, ../sass/_sponger.scss */
+/* line 1121, ../sass/_sponger.scss */
+.sidebar-interno {
+  margin-top: 40px;
+}
+
+/* line 1137, ../sass/_sponger.scss */
 .form-contato {
   font-weight: 100;
   padding: 50px;
@@ -10018,7 +10023,7 @@ s
   width: 100%;
 }
 
-/* line 1130, ../sass/_sponger.scss */
+/* line 1147, ../sass/_sponger.scss */
 form legend {
   margin-top: 0px;
   float: left;
@@ -10027,22 +10032,22 @@ form legend {
   font-size: 16px;
   border-color: #ccc;
 }
-/* line 1139, ../sass/_sponger.scss */
+/* line 1156, ../sass/_sponger.scss */
 form label {
   font-weight: 100;
 }
 
-/* line 1142, ../sass/_sponger.scss */
+/* line 1159, ../sass/_sponger.scss */
 fieldset {
   margin-bottom: 30px;
 }
 
-/* line 1144, ../sass/_sponger.scss */
+/* line 1161, ../sass/_sponger.scss */
 .submit-form {
   padding: 5px 40px;
 }
 
-/* line 1147, ../sass/_sponger.scss */
+/* line 1164, ../sass/_sponger.scss */
 .mask-form-button {
   display: inline-block;
   background: #DFDFD0;
